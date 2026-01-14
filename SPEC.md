@@ -144,12 +144,37 @@ EIL is **not**:
 
 No grammar or semantic changes were introduced in v1.3.1.
 
-- **v1.3.2** — clarification:
-  - Added explicit guidance for scoping permissible extensions (non-core fields)
-  - No grammar or semantic changes were introduced in v1.3.2.
-
 ---
 
 ## 10. Summary
 
 > **EIL allows you to say: “You may rephrase this however you want — but you may not change *this*.”**
+
+---
+
+## Version History
+
+### v1.3.2 — Extension Scoping Clarification
+- Clarified that permissible extensions (non-core fields) SHOULD be explicitly scoped as local.
+- Clarified that extensions are interpretive aids unless elevated into ⟦invariants⟧ or ⟦constraints⟧.
+- No grammar or semantic changes.
+
+### v1.3.1 — Verification Clarification
+- Introduced verification as an explicit usage mode.
+- Clarified reverse prompts and drift checking.
+- No grammar changes.
+
+### v1.3 — Procedural Invariant Rule
+- Formalized the Procedural Invariant Rule.
+- Clarified boundary between invariants and implementation detail.
+- No grammar changes.
+
+### v1.2 — Misunderstanding Classes
+- Documented five classes of EIL misunderstanding.
+- Added usage guidance and failure modes.
+
+### v1.1 — Receiver Semantics
+- Clarified acknowledgment and receiver understanding of invariants.
+
+### v1.0 — Initial Specification
+- Defined core grammar and non-goals.
