@@ -116,7 +116,7 @@ EIL is **not**:
 
 ## 9. Summary
 
-> **EIL allows you to say: “You may rephrase this however you want — but you may not change *this*.”**
+**EIL allows you to say: “You may rephrase this however you want — but you may not change *this*.”**
 
 ---
 
