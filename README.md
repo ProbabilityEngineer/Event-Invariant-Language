@@ -170,7 +170,7 @@ Guiding rule:
 ## Status
 
 - Current version: **v1.3.1**
-- README version: **1.3e**
+- README version: **1.3.1e**
 - Stability: grammar-stable, clarification-only changes expected
 - License: **Apache 2.0**
 
