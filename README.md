@@ -139,6 +139,12 @@ These examples are illustrative, not exhaustive.
 
 ---
 
+## FAQ
+
+For rationale, boundaries, and common questions (e.g. “Why not YAML or JSON?”), see **FAQ.md**.
+
+---
+
 ## Verification Example (Reverse Prompt)
 
 EIL can be used to *verify* work after the fact by asking a model to evaluate artifacts instead of generating them.
