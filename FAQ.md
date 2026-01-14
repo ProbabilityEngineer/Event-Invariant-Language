@@ -166,6 +166,15 @@ If it doesn’t, don’t use it.
 
 ---
 
+---
+
+## How do extensions work in EIL?
+
+EIL allows non-core fields (extensions) for clarity (e.g. `context`, `scope`, `procedures`).
+
+Best practice is to **explicitly scope extensions as local** to a given artifact so they are not mistaken for core grammar.
+Extensions are interpretive aids unless elevated into `⟦invariants⟧` or `⟦constraints⟧`.
+
 ## In one sentence
 
 EIL exists to let you say:

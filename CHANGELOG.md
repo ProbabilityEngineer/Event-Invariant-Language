@@ -5,7 +5,23 @@ Patch releases indicate clarification-only updates with no grammar or semantic c
 
 ---
 
-## v1.3.1 — Verification Clarification (Current)
+## v1.3.2 — Extension Scoping Clarification (Current)
+
+**Type:** Clarification-only (no grammar changes)
+
+### Added / Clarified
+- Added explicit guidance for **scoping permissible extensions** (non-core fields) as local to an artifact.
+- Clarified that extensions are interpretive aids unless elevated into `⟦invariants⟧` or `⟦constraints⟧`.
+
+### Unchanged
+- Core grammar
+- Field semantics
+- Procedural invariant rule
+
+---
+
+## v1.3.1 — Verification Clarification
+
 
 **Type:** Clarification-only (no grammar changes)
 

@@ -120,11 +120,13 @@ EIL supports three primary usage modes:
 The `prompts/` directory contains ready-to-use prompts that support correct use of EIL:
 
 - **eil-bootstrap-prompt.md** — establish shared understanding of EIL before use
-- **eil-review-prompt.md** — (meta) improve clarity and completeness of EIL blocks without changing intent
+- **eil-review-prompt.md** — improve clarity and completeness of EIL blocks without changing intent
 - **eil-verification-prompt.md** — verify that intent and invariants were preserved in downstream artifacts
 
 These prompts are operational aids.  
 They do not replace the specification.
+
+Non-core fields (permissible extensions) should be explicitly scoped as **local** to the artifact.
 
 ---
 
@@ -175,8 +177,8 @@ Guiding rule:
 
 ## Status
 
-- Current version: **v1.3.1**
-- README version: **1.3.1e**
+- Current version: **v1.3.2**
+- README version: **1.3.2**
 - Stability: grammar-stable, clarification-only changes expected
 - License: **Apache 2.0**
 
