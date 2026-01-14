@@ -1,4 +1,4 @@
-# EIL Verification Prompt — v1.3.1
+# EIL Verification Prompt — v1.3.2
 
 This prompt is used to verify whether **intent and invariants expressed in EIL** have been preserved
 across implementation, paraphrase, refactor, or handoff.
