@@ -1,4 +1,4 @@
-# EIL Review Prompt — v1.3.1
+# EIL Review Prompt — v1.3.2
 
 This prompt is used to **critique or improve clarity** of an EIL block itself.
 It is distinct from Verification and Execution Handoff.
