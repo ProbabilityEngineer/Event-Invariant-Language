@@ -183,6 +183,7 @@ Guiding rule:
 See `CHANGELOG.md` for version history.
 
 Contributions are welcome, but EIL prioritizes stability and clarity over feature growth.
+See CONTRIBUTING.md for details.
 
 ---
 
