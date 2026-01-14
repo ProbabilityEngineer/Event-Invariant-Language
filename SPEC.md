@@ -1,4 +1,11 @@
 # Event–Invariant Language (EIL) Specification
+## Version 1.3.2
+
+> **Status:** Grammar-stable, clarification-only update  
+> **License:** Apache 2.0  
+> **Canonical format:** Markdown (this file)
+
+---
 
 ## 1. Purpose
 
@@ -95,6 +102,20 @@ Keep procedures external when:
 - Extensions must not contradict invariants
 - Extensions must not claim to be core grammar
 
+
+### Extension scoping (clarification)
+
+When using non-core fields (extensions), authors SHOULD explicitly scope them as **local** to the artifact.
+Extensions are interpretive aids unless explicitly elevated into `⟦invariants⟧` or `⟦constraints⟧`.
+
+Minimal pattern:
+
+```text
+⟦extensions⟧:
+  scope: local
+  note: context/scope/procedures are non-core extensions for planning clarity
+```
+
 Examples:
 - `[acceptance]`
 - `[implementation]`
@@ -116,9 +137,7 @@ EIL is **not**:
 
 ## 9. Summary
 
-**EIL allows you to say: “You may rephrase this however you want — but you may not change *this*.”**
-
----
+> **EIL allows you to say: “You may rephrase this however you want — but you may not change *this*.”**
 
 ## Version History
 
