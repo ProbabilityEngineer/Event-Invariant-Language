@@ -115,6 +115,30 @@ EIL supports three primary usage modes:
 
 ---
 
+## Prompt Artifacts
+
+The `prompts/` directory contains ready-to-use prompts that support correct use of EIL:
+
+- **eil-bootstrap-prompt.md** — establish shared understanding of EIL before use
+- **eil-review-prompt.md** — improve clarity and completeness of EIL blocks without changing intent
+- **eil-verification-prompt.md** — verify that intent and invariants were preserved in downstream artifacts
+
+These prompts are operational aids.  
+They do not replace the specification.
+
+---
+
+## Examples
+
+The `examples/` directory contains small, canonical EIL artifacts illustrating common use cases:
+
+- **jpeg-execution-example.md** — an execution-handoff example showing how EIL defines invariants without prescribing an algorithm
+- **verification-example.md** — a verification (reverse-prompt) example for detecting intent drift after implementation
+
+These examples are illustrative, not exhaustive.
+
+---
+
 ## Verification Example (Reverse Prompt)
 
 EIL can be used to *verify* work after the fact by asking a model to evaluate artifacts instead of generating them.
@@ -145,8 +169,8 @@ Guiding rule:
 
 ## Status
 
-- Current version: **v1.3**
-- README version: **1.3d**
+- Current version: **v1.3.1**
+- README version: **1.3e**
 - Stability: grammar-stable, clarification-only changes expected
 - License: **Apache 2.0**
 
