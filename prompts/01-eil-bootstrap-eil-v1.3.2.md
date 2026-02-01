@@ -1,3 +1,5 @@
+This document defines Event–Invariant Language (EIL) using EIL itself.
+
 ⟦event⟧: specification.bootstrap
 ⟦agent⟧: human
 ⟦object⟧: Event–Invariant Language (EIL) v1.3.2
