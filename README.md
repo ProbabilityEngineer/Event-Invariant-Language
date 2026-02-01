@@ -119,9 +119,10 @@ EIL supports three primary usage modes:
 
 The `prompts/` directory contains ready-to-use prompts that support correct use of EIL:
 
-- **eil-bootstrap-prompt-v1.3.2.md** — establish shared understanding of EIL before use
-- **eil-review-prompt.md** — improve clarity and completeness of EIL blocks without changing intent
-- **eil-verification-prompt.md** — verify that intent and invariants were preserved in downstream artifacts
+- **00-eil-bootstrap-english.md** - introduces EIL to a fresh instance.
+- **01-eil-bootstrap-eil-v1.3.2.md** — self-hosting definition.
+- **02-eil-review-prompt-v1.3.2.md** — improve clarity and completeness of EIL blocks without changing intent
+- **03-eil-verification-prompt-v1.3.2.md** — verify that intent and invariants were preserved in downstream artifacts
 
 These prompts are operational aids.  
 They do not replace the specification.
