@@ -123,6 +123,8 @@ The `prompts/` directory contains ready-to-use prompts that support correct use 
 - **01-eil-bootstrap-eil-v1.3.2.md** — self-hosting definition.
 - **02-eil-review-prompt-v1.3.2.md** — improve clarity and completeness of EIL blocks without changing intent
 - **03-eil-verification-prompt-v1.3.2.md** — verify that intent and invariants were preserved in downstream artifacts
+- **04-eil-system-prompt-appendix.md** - add this to the end of your system prompt and your model will read eil
+- **05-eil-system-prompt-appendix-micro-context** - a short version for models with limited context
 
 These prompts are operational aids.  
 They do not replace the specification.
